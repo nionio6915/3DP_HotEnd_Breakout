@@ -10,4 +10,6 @@ Headers are shown, but thru-hole soldering of the wires directly to the baord is
 
 2 holes for screw mounting as well as 2 slotted holes to zip-tie and secure the wires. 
 
+![](CArraigeFanBreakout.png)
+
 
