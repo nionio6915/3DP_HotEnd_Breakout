@@ -21,12 +21,12 @@ As of 11/2020, $8.65 for 3 boards fabbed at OSHPark.
 
 
 BOM: 
-5, 2-Pin JST XH_B2B-AM sockets https://octopart.com/b2b-xh-a%28lf%29%28sn%29-jst-7424860?r=sp
-2, 3.5mm pitch screw terminal (Phoenix Contact 1751248) or equivelant https://octopart.com/search?q=Phoenix+Contact+1751248&currency=USD&specs=0
-4, 0603 SMD Resistors, 760Ohm to 1KOhm https://octopart.com/search?q=0603+resistor&currency=USD&specs=0&resistance=1000
-4, 0805 LED's of your choosing https://octopart.com/search?q=0805+LED&currency=USD&specs=0
-6, 2 pin Male headers
-2, 3 pin Male headers
+5, 2-Pin JST XH_B2B-AM sockets <https://octopart.com/b2b-xh-a%28lf%29%28sn%29-jst-7424860?r=sp>  
+2, 3.5mm pitch screw terminal (Phoenix Contact 1751248) or equivelant <https://octopart.com/search?q=Phoenix+Contact+1751248&currency=USD&specs=0>  
+4, 0603 SMD Resistors, 760Ohm to 1KOhm <https://octopart.com/search?q=0603+resistor&currency=USD&specs=0&resistance=1000>  
+4, 0805 LED's of your choosing <https://octopart.com/search?q=0805+LED&currency=USD&specs=0>  
+6, 2 pin Male headers  
+2, 3 pin Male headers  
 
 
 ![](3DP_HotEnd_Breakout.png)
