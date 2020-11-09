@@ -10,6 +10,6 @@ Headers are shown, but thru-hole soldering of the wires directly to the board is
 
 2 holes for screw mounting as well as 2 slotted holes to zip-tie and secure the wires. 
 
-![](3DP_HotEndBreakout.png)
+![](3DP_HotEnd_Breakout.png)
 
 
