@@ -19,7 +19,7 @@ U 1 1 5FA77D56
 P 2400 1750
 F 0 "J2" H 2550 1700 50  0000 C TNN
 F 1 "Conn_01x02" V 2450 1850 50  0001 L TNN
-F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 1750 1500 50  0001 C CNN
+F 2 "CArraigeFanBreakout:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical_DJP" H 1750 1500 50  0001 C CNN
 F 3 "~" H 2400 1750 50  0001 C CNN
 	1    2400 1750
 	1    0    0    -1  
@@ -54,7 +54,7 @@ U 1 1 5FA8759A
 P 3450 1300
 F 0 "J3" H 3650 1300 50  0000 R TNN
 F 1 "Conn_01x02" V 3500 1400 50  0001 L BNN
-F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 3450 1300 50  0001 C CNN
+F 2 "CArraigeFanBreakout:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical_DJP" H 3450 1300 50  0001 C CNN
 F 3 "~" H 3450 1300 50  0001 C CNN
 	1    3450 1300
 	-1   0    0    -1  
@@ -80,43 +80,6 @@ Wire Wire Line
 	6650 1600 6650 1750
 Wire Wire Line
 	1350 1750 2100 1750
-$Comp
-L eec:1751248 J6
-U 1 1 5FA84C81
-P 5450 1750
-F 0 "J6" H 5000 1650 50  0000 C CNN
-F 1 "1751248" V 5150 2200 50  0001 C CNN
-F 2 "CArraigeFanBreakout:Phoenix_Contact-1751248-0-0-0" H 5450 2250 50  0001 L CNN
-F 3 "https://www.phoenixcontact.com/online/portal/ca?uri=pxc-oc-itemdetail:pid=1751248&library=caen&tab=1&requestType=product&productId=1751248" H 5450 2350 50  0001 L CNN
-F 4 "-40°C" H 5450 2450 50  0001 L CNN "ambient temperature range low"
-F 5 "Conn" H 5450 2550 50  0001 L CNN "category"
-F 6 "Tin,Nickel" H 5450 2650 50  0001 L CNN "contact material"
-F 7 "13.5A" H 5450 2750 50  0001 L CNN "current rating"
-F 8 "Connectors" H 5450 2850 50  0001 L CNN "device class L1"
-F 9 "Terminal Blocks | Terminals" H 5450 2950 50  0001 L CNN "device class L2"
-F 10 "unset" H 5450 3050 50  0001 L CNN "device class L3"
-F 11 "CONN TERM BLOCK 2POS 3.5MM" H 5450 3150 50  0001 L CNN "digikey description"
-F 12 "277-5719-ND" H 5450 3250 50  0001 L CNN "digikey part number"
-F 13 "https://www.phoenixcontact.com/online/portal/in/pxc/product_detail_page/!ut/p/z1/5VfLbuIwFP2VzIKlsZ2QB0ugHQoFREtpSTaRXyAPeTWk0OHrxwmgAUYNHSFWia4SP-658bn2jU6gB2fQi8haLkgm44gEqu96lq93McIPDTzsmpaDnjr6GA_xeHD_E8FX6EFvJQLBMsE7JBOLOP0N3dZgkE9khEIX562EsSV0xwBjgJSZ-VggaUpybxmJqHCSXLnbJtYbTt6P5-NO5_EclsksEGqw09YykYZSrVOjQcyWGtCGj3cTDdeQpgOjbqqBQ7S3UiLYgF45zx0efXG10CW8q_D2lw6vBpwUCeDzgESLD7JQBIuBeCXzrdj1UsGEXIt0P_etlKYx_2B5iBfxme2A39kuPg9jfljE2bbsY96JjMhg1ctE2DtyKGU6RagyTPXKMMWVYVqZOu1Wpk67lanTbmXqtFuZOnUqc3qdynyRHFMxddvQ5cn7cvgE-9CTNKxvWFhH9eST1ffBfV5E95M8FUqpy1_v714LeiyOspzILCdYQxtBaygkUjX3wFUNBXKVFUDVVkraPyhpv1DSK_9vymrIanKsM8IB5VSAxtykgFJMgW7Z1NaNhiOalhLIXqkGziV24VCioSci8nsjfzzr9EYXFHMbw7e1FBs4jeI0VH8qu7PB8m1Ats4xsyzQtHS1XqobgGCsbiZH2HTmjoEa8OGSJm8bV76hPPwzuml4-8bhb5uckX7b8Neuvl961PvWNdWYMPpPNSb_W41JGDrG3sB0tn0RdHts86P5nfmjkbk-MUBOMYI6yDiDmcn6DHbDVwGPWs_O8N5ouP31tj0Cpw_Pbf34A-tLew0!/p0/IZ7_2G101H41MG5680QC2P1M1PLUG1=CZ6_2G101H41MG5680QC2P1M1PLEF0=LA0=EdownloadId!4185629=action!downloadFile==/#Z7_2G101H41MG5680QC2P1M1PLUG1" H 5450 3350 50  0001 L CNN "footprint url"
-F 14 "8.65mm" H 5450 3450 50  0001 L CNN "height"
-F 15 "yes" H 5450 3550 50  0001 L CNN "is connector"
-F 16 "yes" H 5450 3650 50  0001 L CNN "is female"
-F 17 "yes" H 5450 3750 50  0001 L CNN "lead free"
-F 18 "c2ef8b09fb5b0b57" H 5450 3850 50  0001 L CNN "library id"
-F 19 "Phoenix Contact" H 5450 3950 50  0001 L CNN "manufacturer"
-F 20 "26" H 5450 4050 50  0001 L CNN "max wire gauge"
-F 21 "16" H 5450 4150 50  0001 L CNN "min wire gauge"
-F 22 "Conn; Term Blk; Screw; 2: 3.5 mm; 26-16AWG; 10 A; 160 V; Solder; 2.5 kV; PA" H 5450 4250 50  0001 L CNN "mouser description"
-F 23 "651-1751248" H 5450 4350 50  0001 L CNN "mouser part number"
-F 24 "2" H 5450 4450 50  0001 L CNN "number of contacts"
-F 25 "1" H 5450 4550 50  0001 L CNN "number of rows"
-F 26 "HDR2" H 5450 4650 50  0001 L CNN "package"
-F 27 "yes" H 5450 4750 50  0001 L CNN "rohs"
-F 28 "-40°C" H 5450 4850 50  0001 L CNN "temperature range low"
-F 29 "200V" H 5450 4950 50  0001 L CNN "voltage rating"
-	1    5450 1750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6850 1950 6850 2150
 Text GLabel 4050 2150 3    50   Input ~ 0
@@ -166,7 +129,7 @@ U 1 1 5FA7F188
 P 3450 1750
 F 0 "J4" H 3650 1750 50  0000 R TNN
 F 1 "Conn_01x02" V 3368 1876 50  0001 L BNN
-F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 3450 1750 50  0001 C CNN
+F 2 "CArraigeFanBreakout:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical_DJP" H 3450 1750 50  0001 C CNN
 F 3 "~" H 3450 1750 50  0001 C CNN
 	1    3450 1750
 	-1   0    0    -1  
@@ -213,27 +176,10 @@ F 3 "~" H 2100 1450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2100 1650 2100 1750
-$Comp
-L Connector:Conn_01x02_Male J7
-U 1 1 5FAB9AD4
-P 5650 1550
-F 0 "J7" V 5550 1500 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 5350 1300 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5650 1550 50  0001 C CNN
-F 3 "~" H 5650 1550 50  0001 C CNN
-	1    5650 1550
-	0    -1   1    0   
-$EndComp
-Text GLabel 5750 2150 3    50   Input ~ 0
+Text GLabel 5600 2150 3    50   Input ~ 0
 +V_IN
-Text GLabel 5650 2150 3    50   Input ~ 0
+Text GLabel 5450 2150 3    50   Input ~ 0
 -V_IN
-Wire Wire Line
-	5750 1750 5750 1950
-Wire Wire Line
-	5350 1950 5750 1950
-Wire Wire Line
-	5350 1750 5650 1750
 Wire Wire Line
 	2000 1650 2000 1850
 Wire Wire Line
@@ -253,12 +199,6 @@ Wire Wire Line
 	4050 1750 4050 2150
 Wire Wire Line
 	3950 1850 3950 2150
-Wire Wire Line
-	5750 1950 5750 2150
-Connection ~ 5750 1950
-Wire Wire Line
-	5650 1750 5650 2150
-Connection ~ 5650 1750
 $Comp
 L power:+3.3V #PWR01
 U 1 1 5FA94EEF
@@ -300,17 +240,6 @@ Text GLabel 9500 2150 3    50   Input ~ 0
 -THERM
 Text GLabel 9400 2150 3    50   Input ~ 0
 +THERM
-$Comp
-L Connector:Conn_01x02_Male J10
-U 1 1 5FA89B03
-P 1550 3250
-F 0 "J10" V 1450 3200 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 1250 3000 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1550 3250 50  0001 C CNN
-F 3 "~" H 1550 3250 50  0001 C CNN
-	1    1550 3250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1950 3350 1900 3350
 Text GLabel 1900 3650 3    50   Input ~ 0
@@ -335,7 +264,7 @@ U 1 1 5FAA28CA
 P 2150 3250
 F 0 "J11" H 2300 3250 50  0000 C TNN
 F 1 "Conn_01x02" V 2150 3400 50  0001 L TNN
-F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 2150 3250 50  0001 C CNN
+F 2 "CArraigeFanBreakout:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical_DJP" H 2150 3250 50  0001 C CNN
 F 3 "~" H 2150 3250 50  0001 C CNN
 	1    2150 3250
 	1    0    0    -1  
@@ -360,7 +289,7 @@ U 1 1 5FA8CE38
 P 9750 1750
 F 0 "J13" H 9900 1750 50  0000 C TNN
 F 1 "Conn_01x02" V 9750 1900 50  0001 L TNN
-F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 9750 1750 50  0001 C CNN
+F 2 "CArraigeFanBreakout:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical_DJP" H 9750 1750 50  0001 C CNN
 F 3 "~" H 9750 1750 50  0001 C CNN
 	1    9750 1750
 	1    0    0    -1  
@@ -408,4 +337,124 @@ Wire Wire Line
 	1900 2650 1800 2650
 Wire Wire Line
 	1800 2650 1800 2800
+$Comp
+L eec:1751248 J7
+U 1 1 5FA8B67B
+P 5600 1950
+F 0 "J7" H 5150 1850 50  0000 C CNN
+F 1 "1751248" V 5300 2400 50  0001 C CNN
+F 2 "CArraigeFanBreakout:Phoenix_Contact-1751248-0-0-0" H 5600 2450 50  0001 L CNN
+F 3 "https://www.phoenixcontact.com/online/portal/ca?uri=pxc-oc-itemdetail:pid=1751248&library=caen&tab=1&requestType=product&productId=1751248" H 5600 2550 50  0001 L CNN
+F 4 "-40°C" H 5600 2650 50  0001 L CNN "ambient temperature range low"
+F 5 "Conn" H 5600 2750 50  0001 L CNN "category"
+F 6 "Tin,Nickel" H 5600 2850 50  0001 L CNN "contact material"
+F 7 "13.5A" H 5600 2950 50  0001 L CNN "current rating"
+F 8 "Connectors" H 5600 3050 50  0001 L CNN "device class L1"
+F 9 "Terminal Blocks | Terminals" H 5600 3150 50  0001 L CNN "device class L2"
+F 10 "unset" H 5600 3250 50  0001 L CNN "device class L3"
+F 11 "CONN TERM BLOCK 2POS 3.5MM" H 5600 3350 50  0001 L CNN "digikey description"
+F 12 "277-5719-ND" H 5600 3450 50  0001 L CNN "digikey part number"
+F 13 "https://www.phoenixcontact.com/online/portal/in/pxc/product_detail_page/!ut/p/z1/5VfLbuIwFP2VzIKlsZ2QB0ugHQoFREtpSTaRXyAPeTWk0OHrxwmgAUYNHSFWia4SP-658bn2jU6gB2fQi8haLkgm44gEqu96lq93McIPDTzsmpaDnjr6GA_xeHD_E8FX6EFvJQLBMsE7JBOLOP0N3dZgkE9khEIX562EsSV0xwBjgJSZ-VggaUpybxmJqHCSXLnbJtYbTt6P5-NO5_EclsksEGqw09YykYZSrVOjQcyWGtCGj3cTDdeQpgOjbqqBQ7S3UiLYgF45zx0efXG10CW8q_D2lw6vBpwUCeDzgESLD7JQBIuBeCXzrdj1UsGEXIt0P_etlKYx_2B5iBfxme2A39kuPg9jfljE2bbsY96JjMhg1ctE2DtyKGU6RagyTPXKMMWVYVqZOu1Wpk67lanTbmXqtFuZOnUqc3qdynyRHFMxddvQ5cn7cvgE-9CTNKxvWFhH9eST1ffBfV5E95M8FUqpy1_v714LeiyOspzILCdYQxtBaygkUjX3wFUNBXKVFUDVVkraPyhpv1DSK_9vymrIanKsM8IB5VSAxtykgFJMgW7Z1NaNhiOalhLIXqkGziV24VCioSci8nsjfzzr9EYXFHMbw7e1FBs4jeI0VH8qu7PB8m1Ats4xsyzQtHS1XqobgGCsbiZH2HTmjoEa8OGSJm8bV76hPPwzuml4-8bhb5uckX7b8Neuvl961PvWNdWYMPpPNSb_W41JGDrG3sB0tn0RdHts86P5nfmjkbk-MUBOMYI6yDiDmcn6DHbDVwGPWs_O8N5ouP31tj0Cpw_Pbf34A-tLew0!/p0/IZ7_2G101H41MG5680QC2P1M1PLUG1=CZ6_2G101H41MG5680QC2P1M1PLEF0=LA0=EdownloadId!4185629=action!downloadFile==/#Z7_2G101H41MG5680QC2P1M1PLUG1" H 5600 3550 50  0001 L CNN "footprint url"
+F 14 "8.65mm" H 5600 3650 50  0001 L CNN "height"
+F 15 "yes" H 5600 3750 50  0001 L CNN "is connector"
+F 16 "yes" H 5600 3850 50  0001 L CNN "is female"
+F 17 "yes" H 5600 3950 50  0001 L CNN "lead free"
+F 18 "c2ef8b09fb5b0b57" H 5600 4050 50  0001 L CNN "library id"
+F 19 "Phoenix Contact" H 5600 4150 50  0001 L CNN "manufacturer"
+F 20 "26" H 5600 4250 50  0001 L CNN "max wire gauge"
+F 21 "16" H 5600 4350 50  0001 L CNN "min wire gauge"
+F 22 "Conn; Term Blk; Screw; 2: 3.5 mm; 26-16AWG; 10 A; 160 V; Solder; 2.5 kV; PA" H 5600 4450 50  0001 L CNN "mouser description"
+F 23 "651-1751248" H 5600 4550 50  0001 L CNN "mouser part number"
+F 24 "2" H 5600 4650 50  0001 L CNN "number of contacts"
+F 25 "1" H 5600 4750 50  0001 L CNN "number of rows"
+F 26 "HDR2" H 5600 4850 50  0001 L CNN "package"
+F 27 "yes" H 5600 4950 50  0001 L CNN "rohs"
+F 28 "-40°C" H 5600 5050 50  0001 L CNN "temperature range low"
+F 29 "200V" H 5600 5150 50  0001 L CNN "voltage rating"
+	1    5600 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L eec:1751248 J6
+U 1 1 5FA84C81
+P 5450 1750
+F 0 "J6" H 5000 1650 50  0000 C CNN
+F 1 "1751248" V 5150 2200 50  0001 C CNN
+F 2 "CArraigeFanBreakout:Phoenix_Contact-1751248-0-0-0" H 5450 2250 50  0001 L CNN
+F 3 "https://www.phoenixcontact.com/online/portal/ca?uri=pxc-oc-itemdetail:pid=1751248&library=caen&tab=1&requestType=product&productId=1751248" H 5450 2350 50  0001 L CNN
+F 4 "-40°C" H 5450 2450 50  0001 L CNN "ambient temperature range low"
+F 5 "Conn" H 5450 2550 50  0001 L CNN "category"
+F 6 "Tin,Nickel" H 5450 2650 50  0001 L CNN "contact material"
+F 7 "13.5A" H 5450 2750 50  0001 L CNN "current rating"
+F 8 "Connectors" H 5450 2850 50  0001 L CNN "device class L1"
+F 9 "Terminal Blocks | Terminals" H 5450 2950 50  0001 L CNN "device class L2"
+F 10 "unset" H 5450 3050 50  0001 L CNN "device class L3"
+F 11 "CONN TERM BLOCK 2POS 3.5MM" H 5450 3150 50  0001 L CNN "digikey description"
+F 12 "277-5719-ND" H 5450 3250 50  0001 L CNN "digikey part number"
+F 13 "https://www.phoenixcontact.com/online/portal/in/pxc/product_detail_page/!ut/p/z1/5VfLbuIwFP2VzIKlsZ2QB0ugHQoFREtpSTaRXyAPeTWk0OHrxwmgAUYNHSFWia4SP-658bn2jU6gB2fQi8haLkgm44gEqu96lq93McIPDTzsmpaDnjr6GA_xeHD_E8FX6EFvJQLBMsE7JBOLOP0N3dZgkE9khEIX562EsSV0xwBjgJSZ-VggaUpybxmJqHCSXLnbJtYbTt6P5-NO5_EclsksEGqw09YykYZSrVOjQcyWGtCGj3cTDdeQpgOjbqqBQ7S3UiLYgF45zx0efXG10CW8q_D2lw6vBpwUCeDzgESLD7JQBIuBeCXzrdj1UsGEXIt0P_etlKYx_2B5iBfxme2A39kuPg9jfljE2bbsY96JjMhg1ctE2DtyKGU6RagyTPXKMMWVYVqZOu1Wpk67lanTbmXqtFuZOnUqc3qdynyRHFMxddvQ5cn7cvgE-9CTNKxvWFhH9eST1ffBfV5E95M8FUqpy1_v714LeiyOspzILCdYQxtBaygkUjX3wFUNBXKVFUDVVkraPyhpv1DSK_9vymrIanKsM8IB5VSAxtykgFJMgW7Z1NaNhiOalhLIXqkGziV24VCioSci8nsjfzzr9EYXFHMbw7e1FBs4jeI0VH8qu7PB8m1Ats4xsyzQtHS1XqobgGCsbiZH2HTmjoEa8OGSJm8bV76hPPwzuml4-8bhb5uckX7b8Neuvl961PvWNdWYMPpPNSb_W41JGDrG3sB0tn0RdHts86P5nfmjkbk-MUBOMYI6yDiDmcn6DHbDVwGPWs_O8N5ouP31tj0Cpw_Pbf34A-tLew0!/p0/IZ7_2G101H41MG5680QC2P1M1PLUG1=CZ6_2G101H41MG5680QC2P1M1PLEF0=LA0=EdownloadId!4185629=action!downloadFile==/#Z7_2G101H41MG5680QC2P1M1PLUG1" H 5450 3350 50  0001 L CNN "footprint url"
+F 14 "8.65mm" H 5450 3450 50  0001 L CNN "height"
+F 15 "yes" H 5450 3550 50  0001 L CNN "is connector"
+F 16 "yes" H 5450 3650 50  0001 L CNN "is female"
+F 17 "yes" H 5450 3750 50  0001 L CNN "lead free"
+F 18 "c2ef8b09fb5b0b57" H 5450 3850 50  0001 L CNN "library id"
+F 19 "Phoenix Contact" H 5450 3950 50  0001 L CNN "manufacturer"
+F 20 "26" H 5450 4050 50  0001 L CNN "max wire gauge"
+F 21 "16" H 5450 4150 50  0001 L CNN "min wire gauge"
+F 22 "Conn; Term Blk; Screw; 2: 3.5 mm; 26-16AWG; 10 A; 160 V; Solder; 2.5 kV; PA" H 5450 4250 50  0001 L CNN "mouser description"
+F 23 "651-1751248" H 5450 4350 50  0001 L CNN "mouser part number"
+F 24 "2" H 5450 4450 50  0001 L CNN "number of contacts"
+F 25 "1" H 5450 4550 50  0001 L CNN "number of rows"
+F 26 "HDR2" H 5450 4650 50  0001 L CNN "package"
+F 27 "yes" H 5450 4750 50  0001 L CNN "rohs"
+F 28 "-40°C" H 5450 4850 50  0001 L CNN "temperature range low"
+F 29 "200V" H 5450 4950 50  0001 L CNN "voltage rating"
+	1    5450 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1750 5450 1750
+Wire Wire Line
+	5700 1950 5600 1950
+Wire Wire Line
+	5600 2150 5600 1950
+Connection ~ 5600 1950
+Wire Wire Line
+	5600 1950 5350 1950
+Wire Wire Line
+	5450 2150 5450 1750
+Connection ~ 5450 1750
+Wire Wire Line
+	5450 1750 5350 1750
+$Comp
+L Device:LED D4
+U 1 1 5FA99C37
+P 5600 1350
+F 0 "D4" V 5639 1232 50  0000 R CNN
+F 1 "LED" V 5548 1232 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5600 1350 50  0001 C CNN
+F 3 "~" H 5600 1350 50  0001 C CNN
+	1    5600 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5FA9E898
+P 5450 1350
+F 0 "R4" H 5250 1400 50  0000 L CNN
+F 1 "R" H 5300 1300 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5380 1350 50  0001 C CNN
+F 3 "~" H 5450 1350 50  0001 C CNN
+	1    5450 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 1950 5600 1500
+Wire Wire Line
+	5450 1750 5450 1500
+Wire Wire Line
+	5450 1200 5450 1050
+Wire Wire Line
+	5450 1050 5600 1050
+Wire Wire Line
+	5600 1050 5600 1200
 $EndSCHEMATC
