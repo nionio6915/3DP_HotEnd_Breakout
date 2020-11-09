@@ -6,10 +6,10 @@ Uses 5, 2-Pin JST XH_B2B-AM sockets
 3, 0603 SMD Resistors, 760Ohm to 1KOhm
 3, 0805 LED's
 
-Headers are shown, but thru-hole soldering of the wires directly to the baord is also possible. 
+Headers are shown, but thru-hole soldering of the wires directly to the board is also possible. 
 
 2 holes for screw mounting as well as 2 slotted holes to zip-tie and secure the wires. 
 
-![](CArraigeFanBreakout.png)
+![](3DP_HotEndBreakout.png)
 
 
