@@ -20,7 +20,7 @@ As of 11/2020, $8.65 for 3 boards fabbed at OSHPark.
 
 
 
-BOM: 
+BOM:   
 5, 2-Pin JST XH_B2B-AM sockets  
     <https://octopart.com/b2b-xh-a%28lf%29%28sn%29-jst-7424860?r=sp>  
 2, 3.5mm pitch screw terminal (Phoenix Contact 1751248) or equivalent  
