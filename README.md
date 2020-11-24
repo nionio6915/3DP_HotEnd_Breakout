@@ -44,5 +44,5 @@ BOM:<br>
 
 ![](3DP_HotEnd_Breakout.png)
 ![](3DP_HotEnd_Breakout1.png)
-![](3DP_HotEnd_Breakout-BOT.png)
+![](3DP_HotEnd_Breakout-BACK.png)
 ![](3DP_HotEnd_Breakout-TOP.png)
